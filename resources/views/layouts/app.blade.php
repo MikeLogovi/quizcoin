@@ -8,17 +8,13 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="/css/app.css"/>
-        <link href="/application/assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-        <!-- chartist CSS -->
+        <!--<link href="/application/assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
         <link href="/application/assets/plugins/chartist-js/dist/chartist.min.css" rel="stylesheet">
         <link href="/application/assets/plugins/chartist-js/dist/chartist-init.css" rel="stylesheet">
         <link href="/application/assets/plugins/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.css" rel="stylesheet">
-        <!--This page css - Morris CSS -->
         <link href="/application/assets/plugins/c3-master/c3.min.css" rel="stylesheet">
-        <!-- Custom CSS -->
         <link href="/application/html/css/style.css" rel="stylesheet">
-        <!-- You can change the theme colors from here -->
-        <link href="/application/html/css/colors/blue.css" id="theme" rel="stylesheet">
+        <link href="/application/html/css/colors/blue.css" id="theme" rel="stylesheet">-->
         <script src="/js/app.js"></script>
 
         @livewireStyles

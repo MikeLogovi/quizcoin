@@ -3,9 +3,9 @@
           <div class="row">
               <div class="col-md-4 login-col">
                 <div class="form-space">
-                       <h1 class="site-title text-center">QuizCoin <img class="login-images" src="/images/bitcoin.svg" alt="bitcoin"/></h1>
+                       <h1 class="site-title text-center">QuizCoin<img class="login-images" src="/images/bitcoin.svg" alt="bitcoin"/></h1>
                        <p class="text-center" style="font-size:1.5rem;"> Content de vous revoir !</p>
-                       <div class="container text-center">
+                      <div class="container text-center">
                            <a href="#"><img class="login-images credentials" src="/images/facebook.svg" alt="facebook"/></a>
                            <a href="#"><img class="login-images credentials" src="/images/google.svg" alt="google"/></a>
 
