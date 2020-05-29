@@ -94,20 +94,18 @@ a{
 
 /* CAROUSEL */
 
-.carousel #carousel-1 {
+.carousel .carousel-caption {
     position:absolute;
     padding:0!important;
     margin:0!important;
-    left:10rem;
-    top:20%;
-    text-align: left;
+  
 }
 .carousel #carousel-1 h1{
     max-width: 50rem;
     flex-wrap: wrap;
     font-size:5rem;
 }
-.carousel #carousel-1 button{
+.carousel .carousel-caption button{
    padding:0.5rem 2rem;
    border-radius:20px;
    width:30%;
@@ -121,11 +119,65 @@ a{
     flex-wrap: wrap;
     font-size:2rem;
 }
+.carousel #carousel-1{
+    left:10rem;
+    top:20%;
+    text-align: left;
+}
+.carousel #carousel-2{
+    right:10rem;
+    top:20%;
+    text-align:right;
+}
+.carousel #carousel-2 h1{
+    font-size:5rem;
+}
+.carousel #carousel-2 p{
+  
+    font-size:2rem;
+}
+
+
 @media(max-width:800px){
     .carousel-inner img{
         height:70vh;
     }
+    .carousel #carousel-1 {
+        top:35%;
+        left:1rem;
+    }
+    .carousel #carousel-2{
+        top:35%;
+        right:1rem;
+    }
+    .carousel #carousel-1 h1,.carousel #carousel-2 h1{
+        font-size:2.25rem;
+    }
+    .carousel #carousel-1 p,.carousel #carousel-2 p{
+        font-size:1.25rem;
+    }
+    .carousel #carousel-1 button{
+        font-size:2rem;
+        width:50%;
+    }
+    .carousel #carousel-2 button{
+        width:50%;
+    }
 }
+@media(max-width:500px){
+    
+    .carousel #carousel-1 h1,.carousel #carousel-2 h1{
+        font-size:2rem;
+    }
+    .carousel #carousel-1 p,.carousel #carousel-2 p{
+        font-size:1.25rem;
+    }
+    .carousel #carousel-1 button{
+        font-size:2rem;
+        width:50%;
+    }
+}
+
 @media(max-width:500px){
     .carousel-inner img{
         height:50vh;
