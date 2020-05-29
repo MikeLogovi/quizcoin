@@ -1,6 +1,4 @@
-:root,
-html,
-body {
+:root,html,body {
   margin: 0;
   padding: 0;
   width: 100%;
@@ -19,45 +17,35 @@ body {
   --green-color-secondary: #43A047;
   --yellow-color-primary: #FFCA28;
 }
-
 /*RESET*/
-
 li {
   list-style: none;
 }
-
 a {
   text-decoration: none;
 }
-
 /*Heading*/
-
 #heading {
   background-color: #FDD835;
   box-shadow: 0px 10px 10px #FFF176;
 }
-
 #heading ul {
   margin: 0;
   padding: 1rem 4rem;
   display: flex;
   justify-content: space-between;
 }
-
 #heading ul div {
   display: flex;
 }
-
 #heading .heading-img {
   width: 30px;
   height: 30px;
   margin-right: 1rem;
 }
-
 #heading .connexion-btn {
   margin-top: 0.5rem;
 }
-
 #heading .connexion-btn a {
   padding: 0.75rem 2rem;
   color: var(--primary-text-color);
@@ -65,64 +53,52 @@ a {
   margin: 3rem 0.25rem;
   border-radius: 15px;
 }
-
 #heading .connexion-btn a:hover {
   color: var(--yellow-color-primary);
 }
-
 @media (max-width: 500px) {
   #heading ul {
     padding: 1rem;
   }
 }
-
 /*HEADER*/
-
 #header .navbar {
   padding: 0.5rem 4rem;
 }
-
 #header .navbar .navbar-brand {
   font-family: "Audiowide", cursive;
   font-size: 3rem;
 }
-
 #header .navbar .navbar-brand img {
   width: 70px;
   height: 70px;
 }
-
-#header .navbar .navbar-brand .site-title {
+.site-title {
+  font-family: "Audiowide", cursive;
   -webkit-background-clip: text;
           background-clip: text;
   color: transparent;
   background-image: linear-gradient(to right top, #311b92, #a10083, #e00063, #ff523b, #ff9800);
 }
-
 #header .navbar .navbar-collapse a {
   font-size: 1.25rem;
 }
-
 @media (max-width: 500px) {
   #header .navbar {
     padding: 0.5rem 1rem;
   }
 }
-
 /* CAROUSEL */
-
 .carousel .carousel-caption {
   position: absolute;
   padding: 0 !important;
   margin: 0 !important;
 }
-
 .carousel #carousel-1 h1 {
   max-width: 50rem;
   flex-wrap: wrap;
   font-size: 5rem;
 }
-
 .carousel .carousel-caption button {
   padding: 0.5rem 2rem;
   border-radius: 20px;
@@ -132,33 +108,27 @@ a {
   color: white;
   border: none;
 }
-
 .carousel #carousel-1 p {
   max-width: 30rem;
   flex-wrap: wrap;
   font-size: 2rem;
 }
-
 .carousel #carousel-1 {
   left: 10rem;
   top: 20%;
   text-align: left;
 }
-
 .carousel #carousel-2 {
   right: 10rem;
   top: 20%;
   text-align: right;
 }
-
 .carousel #carousel-2 h1 {
   font-size: 5rem;
 }
-
 .carousel #carousel-2 p {
   font-size: 2rem;
 }
-
 @media (max-width: 800px) {
   .carousel-inner img {
     height: 70vh;
@@ -193,7 +163,6 @@ a {
     width: 50%;
   }
 }
-
 @media (max-width: 500px) {
   .carousel #carousel-1 h1,
   .carousel #carousel-2 h1 {
@@ -210,16 +179,96 @@ a {
     width: 50%;
   }
 }
-
 @media (max-width: 500px) {
   .carousel-inner img {
     height: 50vh;
   }
 }
-
 @media (min-width: 800px) {
   .carousel-inner img {
     height: 100vh;
   }
 }
 
+/* LOGIN */
+#login{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#login .container-fluid{
+    margin:0;
+    padding:0;
+}
+#login .login-col{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    padding:0;
+    margin:0;
+    background-color: rgba(227, 242, 253,0.3);
+    position:relative;
+}
+#login .login-col .form-space{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    padding:3rem;
+    margin:0;
+    padding-left:3.5rem;
+    position:relative;
+
+}
+#login .login-col .form-space form{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#login form {
+    width:100%;
+}
+#login form .form-group{
+    width:100%;
+}
+
+#login img{
+    width:100%;
+    height:100vh;
+}
+#login .col-md-8{
+    padding:0;
+    margin:0;
+}
+#login .form-check{
+    padding:0;
+    margin:0;
+}
+#login .form-check .form-check-input{
+    margin-left:0rem;
+}
+#login .not-yet-subscribe{
+    position:absolute;
+    bottom:0;
+    text-align:center;
+}
+#login .not-yet-subscribe a{
+    background-clip: text;
+    color:transparent;
+    background-image: var(--tertiary-gradient);
+}
+#login button{
+    border:none;
+    background-image:var(--tertiary-gradient);
+    color:white;
+    width:100%;
+    padding:0.5rem 1rem;
+    font-size:1.5rem;
+    margin-top:1rem;
+    border-radius: 15px;
+
+}

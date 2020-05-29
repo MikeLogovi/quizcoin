@@ -15,5 +15,5 @@ use Illuminate\Support\Facades\Route;
 
 Route::livewire('/','home');
 Route::livewire('/login','login')->name('login');
-Route::livewire('/signup','signup')->name('signup');
+Route::livewire('/register','register')->name('register');
 
